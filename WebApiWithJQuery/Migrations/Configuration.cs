@@ -9,7 +9,7 @@ namespace WebApiWithJQuery.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(WebApiWithJQuery.Models.VehicleContext context)
