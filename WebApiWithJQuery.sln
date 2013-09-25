@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiWithJQuery", "WebApiWithJQuery\WebApiWithJQuery.csproj", "{208952C5-936B-4C2B-8920-D979563F3CBB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebApiWithJQuery\WebAPI.csproj", "{208952C5-936B-4C2B-8920-D979563F3CBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{BF34274F-36C1-43D2-A5F7-C2DCC307F0E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{208952C5-936B-4C2B-8920-D979563F3CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{208952C5-936B-4C2B-8920-D979563F3CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{208952C5-936B-4C2B-8920-D979563F3CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF34274F-36C1-43D2-A5F7-C2DCC307F0E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF34274F-36C1-43D2-A5F7-C2DCC307F0E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF34274F-36C1-43D2-A5F7-C2DCC307F0E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF34274F-36C1-43D2-A5F7-C2DCC307F0E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
