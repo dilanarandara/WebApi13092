@@ -25,11 +25,11 @@ namespace WebApiWithJQuery.Filters
     {
       public SimpleMembershipInitializer()
       {
-        Database.SetInitializer<UsersContext>(null);
+        Database.SetInitializer<VehicleContext>(null);
 
         try
         {
-          using (var context = new UsersContext())
+          using (var context = new VehicleContext())
           {
             if (!context.Database.Exists())
             {
