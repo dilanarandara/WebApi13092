@@ -24,16 +24,24 @@ namespace WebApiWithJQuery.Controllers
     }
 
     // GET api/Car/5
-    public Car GetCar(Guid id)
+    public IQueryable<Car> GetCar(Guid id)
     {
-      Car car = db.Cars.Find(id);
-      if (car == null)
-      {
-        throw new HttpResponseException(Request.CreateResponse(HttpStatusCode.NotFound));
-      }
+      var models = db.Cars.Where(c => c.ModelId == id).AsQueryable();
 
-      return car;
+      return models;
     }
+
+    //// GET api/Car/5
+    //public Car GetCar(Guid id)
+    //{
+    //  Car car = db.Cars.Find(id);
+    //  if (car == null)
+    //  {
+    //    throw new HttpResponseException(Request.CreateResponse(HttpStatusCode.NotFound));
+    //  }
+
+    //  return car;
+    //}
 
     // PUT api/Car/5
     public HttpResponseMessage PutCar(Guid id, Car car)

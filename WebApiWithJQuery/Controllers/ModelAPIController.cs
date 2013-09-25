@@ -23,17 +23,26 @@ namespace WebApiWithJQuery.Controllers
       return models.AsQueryable();
     }
 
-    // GET api/Model/5
-    public Model GetModel(Guid id)
+    //[HttpGet]
+    // GET api/Model
+    public IQueryable<Model> GetModels(Guid id)
     {
-      Model model = db.Models.Find(id);
-      if (model == null)
-      {
-        throw new HttpResponseException(Request.CreateResponse(HttpStatusCode.NotFound));
-      }
+      var models = db.Models.Where(c => c.MakeId == id).AsQueryable();
 
-      return model;
+      return models;
     }
+
+    //// GET api/Model/5
+    //public Model GetModel(Guid id)
+    //{
+    //  Model model = db.Models.Find(id);
+    //  if (model == null)
+    //  {
+    //    throw new HttpResponseException(Request.CreateResponse(HttpStatusCode.NotFound));
+    //  }
+
+    //  return model;
+    //}
 
     // PUT api/Model/5
     public HttpResponseMessage PutModel(Guid id, Model model)
