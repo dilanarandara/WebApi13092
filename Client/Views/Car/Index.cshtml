@@ -1,6 +1,42 @@
 ﻿@{
     ViewBag.Title = "Index";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = null;
 }
-
-<h2>Index</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="~/Content/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap/bootstrap-responsive.min.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</head>
+<body>
+    <form class="form-inline well">
+        <div class="control-group">
+            <label class="control-label span1">Make</label>
+            <select class="span3">
+                <option>Ford</option>
+                <option>Bentley</option>
+                <option>Jaguar</option>
+            </select>
+        </div>
+        <div class="control-group">
+            <label class="control-label span1">Model</label>
+            <select class="span3">
+                <option>Mustang</option>
+                <option>Escape</option>
+                <option>Taurus</option>
+            </select>
+        </div>
+        <div class="control-group">
+            <label class="control-label span1">Car</label>
+            <select class="span3">
+                <option>Hybrid SE</option>
+                <option>V6 Premium</option>
+                <option>S Hybrid</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>

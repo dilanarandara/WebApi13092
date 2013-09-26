@@ -82,3 +82,4 @@ C:\Users\Dilan\Documents\Visual Studio 2012\Projects\WebApi13092\WebApiWithJQuer
 C:\Users\Dilan\Documents\Visual Studio 2012\Projects\WebApi13092\WebApiWithJQuery\bin\zh-Hant\System.Spatial.resources.dll
 C:\Users\Dilan\Documents\Visual Studio 2012\Projects\WebApi13092\WebApiWithJQuery\obj\Debug\WebApiWithJQuery.dll
 C:\Users\Dilan\Documents\Visual Studio 2012\Projects\WebApi13092\WebApiWithJQuery\obj\Debug\WebApiWithJQuery.pdb
+C:\Users\Dilan\Documents\Visual Studio 2012\Projects\WebApi13092\WebApiWithJQuery\obj\Debug\WebAPI.csprojResolveAssemblyReference.cache

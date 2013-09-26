@@ -82,3 +82,4 @@ C:\Users\Dilan\Documents\Visual Studio 2012\Projects\WebApi13092\Client\bin\zh-H
 C:\Users\Dilan\Documents\Visual Studio 2012\Projects\WebApi13092\Client\bin\zh-Hant\System.Spatial.resources.dll
 C:\Users\Dilan\Documents\Visual Studio 2012\Projects\WebApi13092\Client\obj\Debug\Client.dll
 C:\Users\Dilan\Documents\Visual Studio 2012\Projects\WebApi13092\Client\obj\Debug\Client.pdb
+C:\Users\Dilan\Documents\Visual Studio 2012\Projects\WebApi13092\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
